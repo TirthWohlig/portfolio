@@ -14,7 +14,7 @@ https://github.com/
 7
 Years of <br> work
 
-+124
++15
 Completed <br> projects
 
 96
@@ -23,7 +23,7 @@ Satisfied <br> customers
 <!-- Insert your CV -->
 
 <!-- Insert a real number plus country code -->
-https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://api.whatsapp.com/send?phone=9326174312&text=Hello, more information!
 
 <!-- Insert your brand name or profile -->
 https://m.me/bedimcode
