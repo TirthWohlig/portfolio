@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--=============== HEAD ===============-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +20,11 @@
     <title>Tirth</title>
 </head>
 
+<!--=============== BODY ===============-->
+
 <body>
     <!--=============== HEADER PROFILE ===============-->
-    <header class="profile container">
+    <header class="profile__container">
         <div class="profile__container grid">
             <div class="profile__data">
                 <div class="profile__border">
@@ -36,40 +40,43 @@
                 </h3>
 
                 <ul class="profile__social">
-                    <a href="https://www.instagram.com/maru_tirth" target="_blank" profile__social-link"><i
+                    <a href="https://www.instagram.com/maru_tirth" class="profile__social-link" target="_blank"><i
                             class="ri-instagram-line"></i>
                     </a>
-                    <a href="https://www.linkedin.com/" target="_blank" profile__social-link"><i
+                    <a href="https://www.linkedin.com/" class="profile__social-link" target="_blank"><i
                             class="ri-linkedin-box-line"></i>
                     </a>
-                    <a href="https://www.github.com/TirthWohlig" target="_blank" profile__social-link"><i
+                    <a href="https://www.github.com/TirthWohlig" class="profile__social-link" target="_blank"><i
                             class="ri-github-line"></i></a>
                 </ul>
             </div>
         </div>
-        <div class="profile__grid info">
-            <div class="profile__ingo-group">
+        <div class="profile__info grid">
+            <div class="profile__info-group">
                 <h3 class="profile__info-number">7</h3>
                 <p class="profile__info-description">Years of <br> work</p>
 
             </div>
-            <div class="profile__ingo-group">
+            <div class="profile__info-group">
                 <h3 class="profile__info-number">+15</h3>
                 <p class="profile__info-description">Completed <br> projects</p>
 
             </div>
-            <div class="profile__ingo-group">
+            <div class="profile__info-group">
                 <h3 class="profile__info-number">96</h3>
-                <p class="profile__info-desc ription">Satisfied <br> customers</p>
+                <p class="profile__info-description">Satisfied <br> customers</p>
 
             </div>
         </div>
         <div class="profile__buttons">
             <a href="/assets/pdf/Gianell-Cv.pdf" class="button" download>Download CV<i class="ri-download-line"></i></a>
             <div class="profile__buttons-small">
-                <a href="https://api.whatsapp.com/send?phone=9326174312&text=Hello, more information!" class="button"
-                    download><i class="ri-whatsapp-line"></i></a>
-                <a href="#" class="button" download><i class="ri-messenger-line"></i></a>
+
+                <a href="https://api.whatsapp.com/send?phone=9326174312&text=Hello, more information!"
+                    class="button button__small button__gray" download><i class="ri-whatsapp-line"></i></a>
+
+
+                <a href="#" class="button button__small button__gray" download><i class="ri-messenger-line"></i></a>
 
             </div>
         </div>
@@ -80,13 +87,22 @@
     <main class="main">
         <section class="filters container">
             <!--=============== FILTERS TABS ===============-->
-
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#projects">Projects</button>
+                <button class="filters__button" data-target="#skills">Skills</button>
+            </ul>
             <div class="filters__sections">
                 <!--=============== PROJECTS ===============-->
-
+                <div class="projects__content grid" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="./assets/img/project1.jpg" alt="" class="projects_img">
+                    </article>
+                </div>
 
                 <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
 
+                </div>
             </div>
         </section>
     </main>
